@@ -193,10 +193,10 @@
       <div class="post-body">
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-              5 tags in total
+              6 tags in total
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/diary/" style="font-size: 30px; color: #111">diary</a> <a href="/tags/diray/" style="font-size: 12px; color: #ccc">diray</a> <a href="/tags/intraduction/" style="font-size: 12px; color: #ccc">intraduction</a> <a href="/tags/mood/" style="font-size: 12px; color: #ccc">mood</a> <a href="/tags/story/" style="font-size: 12px; color: #ccc">story</a>
+              <a href="/tags/diary/" style="font-size: 30px; color: #111">diary</a> <a href="/tags/diray/" style="font-size: 12px; color: #ccc">diray</a> <a href="/tags/intraduction/" style="font-size: 12px; color: #ccc">intraduction</a> <a href="/tags/mood/" style="font-size: 12px; color: #ccc">mood</a> <a href="/tags/story/" style="font-size: 12px; color: #ccc">story</a> <a href="/tags/study/" style="font-size: 12px; color: #ccc">study</a>
             </div>
           </div>
         
@@ -274,7 +274,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -285,7 +285,7 @@
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -383,6 +383,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'UXzMNUaFOK5SuLkjwyHoxkMW-gzGzoHsz# Your leancloud application appid',
+      appKey     : 'DGbEYWying68RgRTR11gi8cO',
+      placeholder: "wllilerjimw@gmail.com# Comment box placeholder",
+      avatar     : 'wavatar',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>

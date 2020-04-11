@@ -125,14 +125,14 @@
     <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
 
   </li>
+        <li class="menu-item menu-item-movies">
+
+    <a href="/movies/" rel="section"><i class="fa fa-fw fa-movie"></i>movies</a>
+
+  </li>
         <li class="menu-item menu-item-books">
 
     <a href="/books/" rel="section"><i class="fa fa-fw fa-book"></i>books</a>
-
-  </li>
-        <li class="menu-item menu-item-movies">
-
-    <a href="/movies/" rel="section"><i class="fa fa-fw fa-video-camera"></i>movies</a>
 
   </li>
   </ul>
@@ -198,20 +198,6 @@
             </span>
 
           
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine: </span>
-    
-    <a title="valine" href="/2020/03/01/%E4%B8%89%E6%9C%88%E4%B8%80%E6%97%A5/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/03/01/%E4%B8%89%E6%9C%88%E4%B8%80%E6%97%A5/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 
         </div>
       </header>
@@ -244,12 +230,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/02/29/Bandwagon/" rel="prev" title="Bandwagon">
-      <i class="fa fa-chevron-left"></i> Bandwagon
+    <a href="/2020/02/29/2020.29/" rel="prev" title="special day">
+      <i class="fa fa-chevron-left"></i> special day
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/03/02/study%20touched/" rel="next" title="learning exprience">
-      learning exprience <i class="fa fa-chevron-right"></i>
+    <a href="/2020/03/05/%E9%9A%8F%E7%AC%94/" rel="next" title="杂绪">
+      杂绪 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -264,7 +250,6 @@
 
           </div>
           
-    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -324,17 +309,17 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -428,35 +413,6 @@
   
 
   
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : true,
-      notify     : true,
-      appId      : 'UXzMNUaFOK5SuLkjwyHoxkMW-gzGzoHsz',
-      appKey     : 'DGbEYWying68RgRTR11gi8cO',
-      placeholder: "Just go go",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : '' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : ''
-    });
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>

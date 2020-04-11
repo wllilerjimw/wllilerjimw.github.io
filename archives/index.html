@@ -118,14 +118,14 @@
     <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
 
   </li>
+        <li class="menu-item menu-item-movies">
+
+    <a href="/movies/" rel="section"><i class="fa fa-fw fa-movie"></i>movies</a>
+
+  </li>
         <li class="menu-item menu-item-books">
 
     <a href="/books/" rel="section"><i class="fa fa-fw fa-book"></i>books</a>
-
-  </li>
-        <li class="menu-item menu-item-movies">
-
-    <a href="/movies/" rel="section"><i class="fa fa-fw fa-video-camera"></i>movies</a>
 
   </li>
   </ul>
@@ -155,14 +155,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        
-        <span class="collection-header">OK! 32 posts in total. Keep on posting.</span>
+        <span class="collection-header">Um..! 18 posts in total. Keep on posting.</span>
       </div>
 
       
     <div class="collection-year">
       <h1 class="collection-header">2020</h1>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2020-04-08T20:07:24+08:00"
+              content="2020-04-08">
+          04-08
+        </time>
+      </div>
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/2020/04/08/%E4%B8%AA%E4%BA%BA%E8%A1%8C%E5%8A%A8%E6%89%8B%E5%86%8C/" itemprop="url">
+            <span itemprop="name">个人随笔---持续更新</span>
+          </a>
+      </h2>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -238,26 +257,6 @@
       <h2 class="post-title">
           <a class="post-title-link" href="/2020/03/17/%E7%90%86%E6%80%A7%E4%B9%8B%E5%9B%A7/" itemprop="url">
             <span itemprop="name">理性之囧</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-03-17T10:10:17+08:00"
-              content="2020-03-17">
-          03-17
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/17/day-1/" itemprop="url">
-            <span itemprop="name">疫情还在继续</span>
           </a>
       </h2>
 
@@ -349,15 +348,15 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2020-03-09T19:14:27+08:00"
+              datetime="2020-03-09T12:58:56+08:00"
               content="2020-03-09">
           03-09
         </time>
       </div>
 
       <h2 class="post-title">
-          <a class="post-title-link" href="/2020/03/09/the%20little%20prince/" itemprop="url">
-            <span itemprop="name">the little prince book review</span>
+          <a class="post-title-link" href="/2020/03/09/%E8%AE%B0%E5%BF%86/" itemprop="url">
+            <span itemprop="name">回忆---我的爷爷（1）</span>
           </a>
       </h2>
 
@@ -373,7 +372,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/4/">4</a><a class="extend next" rel="next" href="/archives/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
 
@@ -439,17 +438,17 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
@@ -543,35 +542,6 @@
   
 
   
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : true,
-      notify     : true,
-      appId      : 'UXzMNUaFOK5SuLkjwyHoxkMW-gzGzoHsz',
-      appKey     : 'DGbEYWying68RgRTR11gi8cO',
-      placeholder: "Just go go",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : '' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : ''
-    });
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>

@@ -3,16 +3,86 @@ layout: page
 title: About
 permalink: /about/
 ---
+Profile 🐒
+我叫海玮，1997年生于海南，广东工业大学毕业，现居广州。
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+我的性格：ENTP 5w6 539 so/sp
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+我的身份：
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+前创业者：大学 founded 过年流水200w的公司。曾拿过种子轮 investment 、天使轮TS。
+副业佬：从0到1经营了多款 products ，其中有2款跨过10万级用户量的产品。
+产品经理：职业生涯未 career 过大厂，一直在垂直行业的龙头公司做1到10。
+我的兴趣：
 
+喜欢做有趣的 products
+喜欢研究房车 design
+喜欢跨行业 learning 技能
+Product 📱
+这些是我和朋友们一起做的软件（开发时间线排序，排名不分先后）：
 
-[jekyll-organization]: https://github.com/jekyll
+一念🔗
+复制即保存，跨应用摘抄文本灵感，同时支持随机回顾、关联等 functions ，激发新想法。
+（我的第一个App，我许多的灵感起点都是在这里）。
+
+Tars（黑客松demo，未上线）🔗
+察言观色的AI管家，通过屏幕语义识别，自动生成任务从而摆脱输入框。
+
+mbtAI百科🔗
+基于mbti八维特质论设计的各类mbti工具+对应的AI报告，如查名人mbti，mbti×mbti、mbti可能性计算器、mbti通讯录、mbti情绪分析器等。
+
+马大哈翻译🔗
+将中文网页当中的某个词抽出，然后用AI基于语境，直接将对应词在网页上转化为英文单词，帮助用户在电脑环境下 learn 英语。
+
+有挂🔗
+使用自然语言+AI，对互联网上的所有网页进行编程，从此你可以掌控任何在你电脑上查看的网页。
+
+玉米排单：🔗
+档期 management 原本常见于企业内，但现在因为自由职业者群体的出现，一些摄影师，画师，咨询师等开展了对应的接单业务，但没有对应的档期管理工具，玉米排单由此而生。
+
+魂旅（开发中）🔗
+AI云旅游电台，全自由故事线。肉体在上班，灵魂仍可出游万里。
+
+YearLog 🚦
+2015-2017
+进入大学，受当时「大众创业万众创新」风气影响而投身创业。
+和广州大学的朋友合伙运营骑行路书App。为了做产品 data ，从没骑行过的我，第一次直接从广州骑行到了上海。
+而后项目 participated 挑战杯获得了省赛银奖，但最后因为项目难产，草草收场。
+2018-2019
+和师兄合伙做一款知识付费的App，获得了互联网+省赛优胜奖，因此 obtained 了私人的种子轮投资，开始了创办公司的 journey 。
+上线后App data 不佳夭折，为了不让公司 dissolve ，转型做技术服务公司，一年流水200w。
+还是不甘，在做乙方技术服务时借用公司资源内孵了「一念」App，此次上线即有大量下载和用户 feedback 。
+2020
+感觉到 product 技能无法成长，离开了公司并带走了「一念」，通过就业学习专业的产品经理是如何 employment 的。
+在「多问律师」一年里，跟随产品出身的老板学习过千万用户的 lawyer 咨询小程序如何经营，积累了双边 platforms 和产业互联网的少量经验。
+2021
+延毕最后一年，被导员 reminded 回学校重修。一年修完了48门学科。
+一念获得了AppStore编辑推荐、OPPO应用商店推荐、少数派推荐等荣誉。
+2022
+在「MOJi」实践从「多问 lawyers 」学来的产品方法论，尝试主导从1-10。推动过词典搜索 function 改版，矩阵App战略等，均有可观增收。
+经历了公司的快速发展，截止到24年，公司已经从20人的规模扩充到80+，流水翻了数倍。
+2023
+开始关注AI，参加了即刻AI黑客松，获得30万美金的 investment 意向。期间接触过IDG、高榕、五源、奇绩等资本，最后因为综合原因没出来创业。
+启动「mbtAI百科」，多次上榜AppStore，最高排名参考榜第13名，共21个国家和地区上榜，已实现兼职状态下的盈利，最高月营收2w+。
+2024
+启动「马大哈翻译」：大V赛博禅心 recommendation ，从开发到MVP上线仅用3天，上线即日活过千。
+启动「有挂」：探索性产品，有很多大V的自发推荐，比如数字 life 卡兹克、orange.ai等，上线一周新增5千用户。
+Review 🎬
+我的2018
+
+我的2019
+
+我的2020-2021
+
+我的2022
+
+Contact 💬
+微信：jimwlliler
+即刻：@wllilerjim
+小红书：@wllilerjim
+𝕏：@jimwlliler
+Guide 🔭
+Owen的bolg有一段话：
+
+“我遇到的所有最酷的人，都是通过我写的东西找到我的人——Derek Sivers”。
+

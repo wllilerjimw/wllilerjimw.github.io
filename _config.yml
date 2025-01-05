@@ -28,7 +28,7 @@ twitter_username: jimwlliler
 github_username:  wllilerjim
 
 # Build settings
-theme: flexible-jekyll
+theme: minima
 plugins:
   - jekyll-feed
 
